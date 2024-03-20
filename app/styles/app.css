@@ -1,1 +1,79 @@
 /* Ember supports plain CSS out of the box. More info: https://cli.emberjs.com/release/advanced-use/stylesheets/ */
+body {
+  padding-top: 56px;
+}
+
+.sidebar {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #343a40;
+  padding-top: 20px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #007bff;
+}
+
+.content {
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.add-list-btn {
+  margin-top: 20px;
+}
+
+.task-list-top {
+  color: white;
+  margin-left: 15px;
+}
+
+.active {
+  background-color: blue;
+  border-radius: 8%;
+  width: 220px;
+  margin-left: 10px;
+}
+
+.task {
+  display: inline;
+}
+
+.completed-tasks {
+  margin-top: 50px;
+}
+
+.complete {
+  text-decoration: line-through;
+}
+
+hr {
+  width: 60%;
+}
+
+/* Login and signup form styles */
+.form {
+  align-items: center;
+}
+
+.btn {
+  margin-left: 130px;
+}
+
+
+.username{
+  margin-top: 400px;
+  text-align: center;
+  color: white;
+}

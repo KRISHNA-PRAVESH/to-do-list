@@ -1,0 +1,20 @@
+<div class="card form">
+    <div class="card-title">Register</div>
+    <div class="card-body">
+        <label for="username">User Name: </label> &nbsp;
+        {{ input type="text" name="username" value=this.username }}
+        <br><br>
+
+        <label for="username">User Email: </label> &nbsp;
+        {{ input type="text" name="email" value=this.email }}
+        <br><br>
+
+        <label for="password">Password: </label> &nbsp; &nbsp;
+        {{input type="password" name="password" value=this.password }}
+        <br><br>
+
+        <button type="button" {{on 'click' this.submitForm}} class="btn btn-warning">Register</button>
+        <br>
+       &nbsp;&nbsp; &nbsp; Alredy Have an Account? <LinkTo @route="login"><i>Log In</i></LinkTo>
+    </div>
+</div>

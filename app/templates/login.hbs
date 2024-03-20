@@ -1,0 +1,22 @@
+
+
+<div class="card form">
+    <div class="card-title">Log In</div>
+
+    <div class="card-body">
+          <label for="username">User Name: </label>
+    {{ input type="text" name="username" value=this.username }}
+    <br>
+    <br>
+   
+    <label for="password">Password: </label> &nbsp; 
+    {{input type="password" name="password" value=this.password }}
+    <br>
+    <br>
+    
+    <button type="button" {{on 'click' this.submitForm}} class="btn btn-secondary">Log In</button>
+    <br>
+    </div>
+  
+    Don't Have an Account? <LinkTo @route="register"><i>Register</i></LinkTo>
+</div>
